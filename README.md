@@ -18,7 +18,7 @@ Projeto desenvolvido durante o curso de Django da Alura, uma galeria de imagens 
 
 1. Clone o repositório:
 ```bash
-git clone [url-do-seu-repositorio]
+git clone https://github.com/ribeirorafaela/alura-space.git
 cd alura-space
 ```
 
