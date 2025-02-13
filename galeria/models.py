@@ -17,4 +17,4 @@ class Fotografia(models.Model):
     publicada = models.BooleanField(default=False)
     data_fotografia = models.DateTimeField(default= datetime.now(), blank=False)    
     def __str__(self):
-        return f" Nome: {self.nome} - Legenda: {self.legenda} - Descrição: {self.descricao} - Foto: {self.foto}"
+        return f"{self.nome}"
